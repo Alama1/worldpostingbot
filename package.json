@@ -1,0 +1,21 @@
+{
+  "name": "worldpostingbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.11.2"
+  },
+  "devDependencies": {
+    "circular-json": "^0.5.9"
+  }
+}
