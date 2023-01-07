@@ -1,6 +1,5 @@
-const CommandHandler = require('./handlers/CommandHandler');
+const CommandHandler = require('./handlers/commandHandler');
 const PicturesHandler = require('./handlers/pictureHandler');
-//const TextHandler = require('./handlers/textHandler');
 const { Telegraf } = require('telegraf');
 
 class TelegramManager {
