@@ -8,6 +8,10 @@ class Configuration {
             botToken: process.env.TOKEN,
             channelId: null,
         },
+        express: {
+            port: 8880,
+            enabled: true
+        }
     }
     constructor() {
     }
